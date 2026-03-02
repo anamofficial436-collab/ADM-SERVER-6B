@@ -37,6 +37,4 @@
 
 10.Akun Berhasil
 
-![alt text](image-10.png)
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53d3760d-21a6-4c2f-978e-50d722cb6091" />
-
+![alt text](image-12.png)
