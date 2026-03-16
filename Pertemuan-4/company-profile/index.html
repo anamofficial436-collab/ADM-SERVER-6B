@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Khaerul - Cloud Server Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(120deg,#0ea5e9,#6366f1);
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero span{
+color:#facc15;
+}
+
+.hero p{
+max-width:600px;
+font-size:18px;
+}
+
+.btn{
+margin-top:30px;
+padding:12px 30px;
+background:white;
+color:#2563eb;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+margin-bottom:50px;
+font-size:36px;
+}
+
+/* CARDS */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* ABOUT */
+
+.about{
+text-align:center;
+max-width:800px;
+margin:auto;
+}
+
+/* FOOTER */
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+margin-top:40px;
+color:#94a3b8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Khaerul</h2>
+
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Skills</li>
+<li>Contact</li>
+</ul>
+
+</nav>
+
+
+<div class="hero">
+
+<h1>Halo, Saya <span>Khaerul</span></h1>
+
+<p>
+Website ini merupakan hasil deployment server cloud menggunakan AWS EC2
+dalam praktikum Administrasi Server. Website ini dibuat dan dikelola oleh
+Khaerul sebagai implementasi pengelolaan web server berbasis cloud.
+</p>
+
+<a class="btn">Cloud Server Project</a>
+
+</div>
+
+
+<section>
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<p>
+Perkenalkan, saya <b>Khaerul</b>. Saya merupakan mahasiswa Informatika yang
+sedang mempelajari teknologi cloud computing, administrasi server,
+dan pengembangan web modern.
+
+Website ini di-host menggunakan layanan cloud server AWS EC2 dengan
+Apache Web Server sebagai bagian dari praktikum Administrasi Server.
+</p>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="title">My Skills</h2>
+
+<div class="services">
+
+<div class="card">
+
+<h3>Cloud Computing</h3>
+
+<p>
+Mengelola server cloud menggunakan AWS EC2 untuk deployment aplikasi
+berbasis web.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Web Development</h3>
+
+<p>
+Membangun website modern menggunakan HTML, CSS, dan teknologi web
+terbaru.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Server Administration</h3>
+
+<p>
+Mengelola server Linux, konfigurasi web server Apache, dan deployment
+website ke cloud.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="title">Contact</h2>
+
+<div class="about">
+
+<p><b>Nama :</b> Khaerul</p>
+
+<p><b>Status :</b> Mahasiswa Informatika</p>
+
+<p><b>Project :</b> AWS Cloud Server Deployment</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+Website ini dibuat oleh <b>Khaerul</b> | Praktikum Administrasi Server
+| Cloud Deployment menggunakan AWS EC2
+</p>
+
+</footer>
+
+</body>
+
+</html>
