@@ -17,6 +17,8 @@
      2. Ekstract file hasil archive
         - unzip nama_file.zip
 
+![alt text](image-1.png)
+
 4. Export dbcompro dari localhost ke sql
    - login ke SQL
    - use dbCompro;
@@ -49,3 +51,5 @@ NEXTAUTH_URL=http://34.231.241.197:3000/
    -add rule
    - save
    - check perubahan
+
+![alt text](image.png)
