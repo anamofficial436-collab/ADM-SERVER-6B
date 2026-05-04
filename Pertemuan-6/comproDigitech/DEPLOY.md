@@ -137,9 +137,7 @@ NEXTAUTH_URL=http://<IP-PUBLIK-EC2>
 
 > Contoh `NEXTAUTH_URL=http://13.215.xxx.xxx`
 
-![alt text](image-5.png)
-
-![alt text](image-6.png)
+![alt text](image-7.png)
 
 c:\Users\HP-Laptop\OneDrive\Pictures\Screenshots\Screenshot 2026-04-27 095708.png
 

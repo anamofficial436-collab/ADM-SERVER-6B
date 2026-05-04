@@ -45,6 +45,8 @@ NEXTAUTH_URL=http://34.231.241.197:3000/
    -pm2 save
    -pm2 startup
 
+![alt text](image-3.png)
+
 7. Buka port 3000 di securitygroup ec2 aws
 
    -edit inbound ruls
@@ -52,4 +54,4 @@ NEXTAUTH_URL=http://34.231.241.197:3000/
    - save
    - check perubahan
 
-![alt text](image.png)
+![alt text](image-2.png)
