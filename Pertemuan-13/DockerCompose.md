@@ -17,10 +17,14 @@
      - `FLUSH PRIVILEGES;`
      - `exit;`
 
-   - Edit File .env di folder web-dinamis
-   - `npm run build`
-   - `npm start`
-   - Pastikan web dapat diakses di http://localhost:3000 admin tanpa error
+![alt text](image-1.png)
+
+- Edit File .env di folder web-dinamis
+- `npm run build`
+- `npm start`
+- Pastikan web dapat diakses di http://localhost:3000 admin tanpa error
+
+![alt text](image-2.png)
 
 10. Buat file Dockerfile
 
@@ -31,7 +35,7 @@
 15. Commit Changes ke GitHub dari lokal
 16. Push Changes ke GitHub
 17. Cek di Github, apakah actions jalan dan berhasil
-
+    ![alt text](image-3.png)
 18. Cek di AWS, apakah container berjalan dengan baik
 
 19. Akses web melalui Browser login admin edit Layanan
